@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+body{
+  overflow-x: hidden !important;
+}
+.img_website{
+  height: 100px;
+  width: 70px;
+}
+.my_name{
+letter-spacing: 9px;
+}
+.my_name_change::after{
+content: '';
+animation: change_text 10s infinite linear;
+transition: .5s;
+}
+@keyframes change_text{
+0%{content: 'FREELANCER';}
+15%{content: 'WEBDESIGNER';}
+30%{content: 'WEBDEVELOPER';}
+45%{content: 'BLOGGER';}
+60%{content: 'FREELANCER';}
+75%{content: 'WEBDESIGNER';}
+90%{content: 'WEBDEVELOPER';}
+100%{content: 'BLOGGER';}
+}
+.bg_crimson{
+background: crimson;
+color: white;
+}
+.input_brdr::placeholder{
+font-size: large;
+font-weight: 600;
+}
+.input_brdr:hover{
+border: 2px solid crimson;
+}
+.input_brdr{
+border: 2px solid rgb(189, 189, 189);
+border-radius: 6px;
+}
+@media screen and (max-width:1140px) {
+.my_name{
+letter-spacing: 2px;
+}
+.make_grid{
+display: grid !important;
+}
+.container_profile{
+width: 60% !important;
+}
+}
+@media screen and (max-width:650px) {
+.container_profile{
+width: 95% !important;
+} 
+.w-25{
+width: 10% !important;
+}
+}
+.container_profile{
+background: #38383d;
+width: 30%;
+border-radius: 10px;
+}
+.box_profile img{
+display: block;
+border-radius: 150px;
+}
+.box_profile{
+display: inline-block;
+height: 300px !important;
+width: 300 !important;
+background: crimson;
+border-radius: 150px;
+}
+body{
+overflow-x: hidden;
+}
+.fw_600{
+font-weight: 600;
+}
+.box:hover{
+background: crimson !important;
+color: white !important;
+transition: .5s;
+}
+.box:hover .fas{
+color: white !important;
+}
+.bgLightBlack{
+background: #38383d;
+border-radius: 4px;
+cursor: pointer;
+}
+.bg_cv{
+background: rgb(246, 1, 50);
+font-weight: 600;
+color: white;
+}
+.text_crim{
+color: crimson;
+}
+.brdr{
+border-top: 4px solid black;
+border-radius: 2px;
+}
+.brdr_2{
+border-top: 4px solid rgb(255, 255, 255);
+border-radius: 2px;
+}
+.home{
+height: 100vh;
+background-image: url('blackportfolio.jpg');
+}
+nav{
+background: none;
+transition: .5s;
+}
+.bg_crim{
+background: crimson;
+color: white;
+font-weight: 600;
+font-size: 20px;
+box-shadow: 1px 1px 15px rgb(209, 2, 43);
+}
+.mt_mid{
+margin-top: 200px;
+}
+.ff_ubuntu{
+font-family: 'Ubuntu', sans-serif;
+}
+.nav_items{
+font-weight: 700;
+color: white !important;
+transition: .5s;
+font-family: 'Ubuntu', sans-serif;
+}
+.nav_items:hover{
+font-size: 16px !important;
+letter-spacing: 2px;
+}
+.mr_auto{
+margin-left: auto !important;
+}
+.navbar_brand{
+font-family: 'Ubuntu', sans-serif;
+font-size: 30px;
+font-weight: 800;
+text-decoration: none ;
+color: white;
+letter-spacing: 3px;
+}
+.navbar_brand:hover{
+color: white;
+}
+.hlw_text{
+font-family: 'Ubuntu', sans-serif;
+color: white;
+font-size: 40px;
+line-height: 45px;
+}
+.ff_poppin{
+font-family: 'Poppins', sans-serif;
+}
+.name_text{
+color: crimson;
+font-family: 'Poppins', sans-serif;
+font-size: 64px;
+}
